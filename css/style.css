@@ -303,6 +303,16 @@ template {
 [hidden] {
   display: none; }
 
+.button {
+  padding: 13px 20px;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .button--primary {
+    background-color: #E3B873;
+    color: #fff; }
+
 .container {
   max-width: 1256px;
   margin: auto; }
