@@ -365,7 +365,8 @@ template {
   background: url("../img/bg-hero.jpg") no-repeat #131313 center/cover;
   height: 100vh;
   color: #fff;
-  position: relative; }
+  position: relative;
+  padding-top: 100px; }
   .hero__instagram {
     position: absolute;
     left: 0;
@@ -384,6 +385,9 @@ template {
     text-transform: uppercase;
     color: #E3B873;
     transform: rotate(90deg); }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
 
 body {
   font-family: 'Futura Book', sans-serif;
