@@ -333,7 +333,12 @@ template {
 
 .header {
   background-color: #131313;
-  padding: 24px 0; }
+  padding: 24px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99; }
 
 .menu {
   display: flex;
