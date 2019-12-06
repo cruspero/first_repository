@@ -323,8 +323,15 @@ template {
   border-radius: 2px;
   text-transform: uppercase;
   cursor: pointer; }
+  .button:active {
+    outline: none; }
   .button--primary {
     background-color: #E3B873;
+    color: #fff;
+    margin-right: 20px; }
+  .button--outline {
+    border: 1px solid #fff;
+    background-color: transparent;
     color: #fff; }
 
 .container {
