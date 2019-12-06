@@ -328,6 +328,7 @@ template {
     color: #fff; }
 
 .container {
+  width: 85%;
   max-width: 1256px;
   margin: auto; }
 
@@ -366,7 +367,12 @@ template {
   height: 100vh;
   color: #fff;
   position: relative;
-  padding-top: 100px; }
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+  .hero__content {
+    width: 50%; }
   .hero__instagram {
     position: absolute;
     left: 0;
@@ -387,6 +393,9 @@ template {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase; }
+  .hero__text {
+    font-size: 22px;
+    max-width: 604px; }
 
 .instagram {
   background-color: #131313;
@@ -398,6 +407,13 @@ template {
     text-transform: uppercase;
     color: #E3B873;
     transform: rotate(90deg); }
+
+.title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px;
+  text-transform: uppercase; }
+  .title--primary {
+    color: #E3B873; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
