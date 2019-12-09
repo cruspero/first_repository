@@ -473,6 +473,9 @@ body {
     text-transform: uppercase;
     color: #E3B873;
     transform: rotate(90deg); }
+    .instagram__link:hover {
+      color: #fff;
+      transition: color 0.2s; }
     .instagram__link::after {
       content: '';
       width: 50px;
