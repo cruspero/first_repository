@@ -330,13 +330,18 @@ template {
     background-color: #E3B873;
     color: #fff;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-    transition: box-shadow 0.2s; }
+    transition: background 0.5s; }
     .button--primary:hover {
-      box-shadow: none; }
+      box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+      background: linear-gradient(#E3B873, #131313); }
   .button--outline {
     border: 1px solid #fff;
     background-color: transparent;
     color: #fff; }
+    .button--outline:hover {
+      transition: border 0.2s;
+      border: 1px solid #E3B873;
+      color: #E3B873; }
 
 .container {
   width: 85%;
