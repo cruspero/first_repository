@@ -495,8 +495,8 @@ img {
       transition: color 0.2s; }
     .instagram__link::after {
       content: '';
-      width: 3.57rem;
-      height: 0.07rem;
+      width: 50px;
+      height: 1px;
       background-color: #E3B873;
       margin-left: 0.57rem; }
 
@@ -628,7 +628,7 @@ img {
       display: flex;
       align-items: center; } }
 
-@media screen and (max-width: 120px) {
+@media screen and (max-width: 1260px) {
   html {
     font-size: 12px; } }
 
