@@ -409,7 +409,7 @@ img {
 .logo {
   color: #E3B873;
   text-transform: uppercase;
-  font-size: 1.07rem;
+  font-size: 1.08rem;
   margin-right: 1.61rem; }
 
 .nav__item {
@@ -486,16 +486,18 @@ img {
   .hero__text {
     font-size: 1.57rem;
     max-width: 36rem;
-    line-height: 1.28;
-    margin-bottom: 3.42rem; }
+    line-height: 2.1rem;
+    margin-bottom: 3.5rem; }
   .hero__button {
+    margin-top: -0.2rem;
     margin-right: 1.3rem;
-    padding: 1.35rem 1.85rem; }
+    padding: 1.25rem 1.71rem;
+    font-size: 0.964rem; }
     .hero__button--outline {
       margin-left: -0.9rem; }
 
 .instagram {
-  font-size: 1.05rem;
+  font-size: 1.043rem;
   background-color: #131313;
   display: flex;
   justify-content: center;
@@ -516,13 +518,15 @@ img {
       width: 50px;
       height: 1px;
       background-color: #E3B873;
-      margin-left: 0.57rem; }
+      margin-left: 1rem; }
 
 .title {
   font-family: 'Yeseva One', cursive;
   font-size: 2.85rem;
   text-transform: uppercase;
-  margin-bottom: 1.5rem; }
+  line-height: 3.8rem;
+  letter-spacing: -0.06rem;
+  margin-bottom: -0.5rem; }
   .title--primary {
     color: #E3B873; }
 
@@ -641,7 +645,7 @@ img {
       .design__section-title__heading {
         font-size: 1.42rem; }
       .design__section-title__description {
-        font-size: 1.42rem; }
+        font-size: 2rem; }
     .design__card {
       flex-basis: 32%;
       margin: 0; }
