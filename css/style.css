@@ -318,7 +318,7 @@ template {
   font-display: wrap; }
 
 .button {
-  padding: 0.93rem 1.43rem;
+  padding: 0.8rem 1.43rem;
   border: none;
   border-radius: 0.14rem;
   text-transform: uppercase; }
@@ -343,7 +343,7 @@ template {
       border: 1px solid #E3B873;
       color: #E3B873; }
 
-.container {
+.container-fluid {
   width: 85%;
   max-width: 1256px;
   margin: auto; }
@@ -399,10 +399,15 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  .menu__nav {
+    display: flex;
+    justify-content: space-around; }
 
 .logo {
   color: #E3B873;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1.07rem;
+  margin-right: 1.61rem; }
 
 .nav__item {
   text-decoration: none;
@@ -439,7 +444,8 @@ img {
   .hero__content {
     width: 50%;
     position: relative;
-    margin-left: 3.65rem; }
+    margin-left: 4.2rem;
+    line-height: 1.25; }
   .hero__instagram {
     position: absolute;
     left: 0;
