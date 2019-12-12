@@ -337,7 +337,9 @@ template {
   .button--outline {
     border: 1px solid #fff;
     background-color: transparent;
-    color: #fff; }
+    color: #fff;
+    padding: 1.428rem 1.57rem;
+    width: 14.8rem; }
     .button--outline:hover {
       transition: border 0.2s;
       border: 1px solid #E3B873;
@@ -365,7 +367,8 @@ body {
     .section-title__heading {
       margin-bottom: 0.93rem;
       font-family: 'Yeseva One', cursive;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 1.428rem; }
     .section-title__image {
       display: flex;
       justify-content: center;
@@ -467,6 +470,9 @@ img {
     justify-content: center;
     align-items: center;
     color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 0.85rem;
+    line-height: 0.9;
     text-decoration: none;
     text-transform: uppercase; }
     .hero__scroll-down::after {
@@ -476,14 +482,20 @@ img {
       background: url(../img/check.svg) no-repeat center;
       border: 0.14rem solid #E3B873;
       border-radius: 50%;
-      margin-left: 0.86rem; }
+      margin-left: 1.2rem; }
   .hero__text {
     font-size: 1.57rem;
-    max-width: 43.14rem; }
+    max-width: 36rem;
+    line-height: 1.28;
+    margin-bottom: 3.42rem; }
   .hero__button {
-    margin-right: 1.43rem; }
+    margin-right: 1.3rem;
+    padding: 1.35rem 1.85rem; }
+    .hero__button--outline {
+      margin-left: -0.9rem; }
 
 .instagram {
+  font-size: 1.05rem;
   background-color: #131313;
   display: flex;
   justify-content: center;
@@ -509,7 +521,8 @@ img {
 .title {
   font-family: 'Yeseva One', cursive;
   font-size: 2.85rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 1.5rem; }
   .title--primary {
     color: #E3B873; }
 
@@ -519,7 +532,8 @@ img {
 .row {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: auto; }
 
 .col {
   flex-basis: 32%; }
@@ -535,14 +549,15 @@ img {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
-  font-size: 1.29rem;
+  font-size: 1.25rem;
   line-height: 1.79rem;
   margin-top: 0;
-  margin-bottom: 0.7rem; }
+  margin-bottom: 0.4rem;
+  padding-left: 0.2rem; }
 
 .card__list {
   margin: 0;
-  padding: 0 0 0 1rem;
+  padding: 0 0 0 1.2rem;
   font-size: 1.07rem;
   line-height: 1.79rem;
   color: #959595;
@@ -552,9 +567,10 @@ img {
   position: absolute;
   left: 0;
   bottom: -1.7rem;
-  font-size: 1.29rem;
+  font-size: 1.27rem;
   font-family: 'Yeseva One', cursive;
-  padding: 1.214rem 2.61rem;
+  padding: 1.214rem 2.63rem;
+  text-transform: uppercase;
   background-color: #E3B873;
   color: #fff; }
 
