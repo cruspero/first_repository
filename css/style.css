@@ -365,7 +365,7 @@ body {
   .section-title {
     text-align: center; }
     .section-title__heading {
-      margin-bottom: 0.93rem;
+      margin-bottom: 1rem;
       font-family: 'Yeseva One', cursive;
       text-transform: uppercase;
       font-size: 1.428rem; }
@@ -381,10 +381,10 @@ body {
         margin: 0 0.71rem; }
     .section-title__description {
       margin: auto;
-      margin-top: 1.64rem;
-      font-size: 1.07rem;
+      margin-top: 1.6rem;
+      font-size: 1.428rem;
       line-height: 135.84%;
-      max-width: 22rem; }
+      max-width: 52.928rem; }
 
 img {
   max-width: 100%; }
@@ -426,6 +426,10 @@ img {
 
 .contacts__phone {
   margin-right: 3.21rem; }
+
+.contacts__button {
+  padding: 0.8rem 1.5rem;
+  letter-spacing: -0.012rem; }
 
 .hero {
   background: url("../img/bg-hero.jpg") no-repeat #131313 center/cover;
@@ -531,48 +535,54 @@ img {
 
 .row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   margin: auto; }
 
 .col {
-  flex-basis: 32%; }
+  flex-basis: 33%; }
 
-.card__text {
-  position: relative;
-  max-width: 23.6rem;
-  margin: 0 auto;
-  margin-top: -9.3rem;
-  padding: 1.79rem 2.14rem;
-  background-color: #fff;
-  box-shadow: 0.71rem 0.71rem 1.43rem rgba(0, 0, 0, 0.03); }
-
-.card__title {
-  font-family: 'Yeseva One', cursive;
-  font-size: 1.25rem;
-  line-height: 1.79rem;
-  margin-top: 0;
-  margin-bottom: 0.4rem;
-  padding-left: 0.2rem; }
-
-.card__list {
-  margin: 0;
-  padding: 0 0 0 1.2rem;
-  font-size: 1.07rem;
-  line-height: 1.79rem;
-  color: #959595;
-  margin-bottom: 2.5rem; }
-
-.card__pricetag {
-  position: absolute;
-  left: 0;
-  bottom: -1.7rem;
-  font-size: 1.27rem;
-  font-family: 'Yeseva One', cursive;
-  padding: 1.214rem 2.63rem;
-  text-transform: uppercase;
-  background-color: #E3B873;
-  color: #fff; }
+.card {
+  min-width: 28rem;
+  margin-left: 1rem; }
+  .card__text {
+    position: relative;
+    max-width: 23.6rem;
+    margin: 0 auto;
+    margin-top: -9.3rem;
+    margin-left: 2.285rem;
+    padding: 1.79rem 2.12rem;
+    background-color: #fff;
+    box-shadow: 0.71rem 0.71rem 1.43rem rgba(0, 0, 0, 0.03); }
+  .card__title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.25rem;
+    line-height: 1.79rem;
+    margin-top: -0.05rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0.2rem;
+    letter-spacing: 0.02rem; }
+  .card__list {
+    margin: 0;
+    padding: 0;
+    font-size: 1.07rem;
+    line-height: 1.8745rem;
+    color: #959595;
+    margin-bottom: 2.5rem;
+    margin-left: 1.53rem; }
+  .card__item {
+    padding: 0;
+    padding-left: 0; }
+  .card__pricetag {
+    position: absolute;
+    left: 0;
+    bottom: -1.7rem;
+    font-size: 1.27rem;
+    font-family: 'Yeseva One', cursive;
+    padding: 1.214rem 2.65rem;
+    text-transform: uppercase;
+    background-color: #E3B873;
+    color: #fff; }
 
 @media screen and (max-width: 1000px) {
   .card__pricetag {
@@ -631,24 +641,34 @@ img {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-top: 3.2rem; }
   .design {
     background-color: #fff; }
     .design__section-title {
       color: #131313;
       max-width: 53rem;
       margin: 0 auto; }
-      .design__section-title__heading {
-        font-size: 1.42rem; }
-      .design__section-title__description {
-        font-size: 2rem; }
     .design__card {
-      flex-basis: 32%;
-      margin: 0; }
+      flex-basis: 40%;
+      margin: 0;
+      margin-left: 1rem; }
     .design__image {
       width: 24.12rem;
       display: flex;
-      align-items: center; } }
+      align-items: center; }
+    .design__pricetag {
+      position: absolute;
+      left: 0;
+      bottom: -1.7rem;
+      font-size: 1.27rem;
+      font-family: 'Yeseva One', cursive;
+      padding: 1.214rem;
+      padding-left: 2.35rem;
+      padding-right: 5.7rem;
+      text-transform: uppercase;
+      background-color: #E3B873;
+      color: #fff; } }
 
 @media screen and (max-width: 1260px) {
   html {
