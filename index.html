@@ -183,14 +183,16 @@
         <button class="modal__close"></button>
         <h3 class="modal__title">Оставьте заявку и наш менеджер свяжется с вами </h3>
         <form action="#" class="form modal__form">
-          <label for="user-name" class="label form__label">Имя</label>
-          <input type="text" class="input form__input" id="user-name">
-          <label for="user-phone" class="label form__label">Телефон</label>
-          <input type="tel" class="input form__input" id="user-phone">
-          <label for="user-email" class="label form__label">Email</label>
-          <input type="email" class="input form__input" id="user-email">
-          <div class="policy">
-            <input type="ch" class="policy__checkbox">
+          <label for="user-name" class="label form__label label--light">Имя</label>
+          <input type="text" class="input form__input modal__input" id="user-name" placeholder="Как вас зовут:">
+          <label for="user-phone" class="label form__label label--light">Телефон</label>
+          <input type="tel" class="input form__input modal__input" id="user-phone" placeholder="Ваш номер телефона:">
+          <label for="user-email" class="label form__label label--light">Email</label>
+          <input type="email" class="input form__input modal__input" id="user-email" placeholder="Ваш email">
+          <div class="policy modal__policy">
+            <input type="checkbox" class="policy__checkbox" id="policy__checkbox">
+            <label for="policy__checkbox" class="policy__label" checked>Я соглашаюсь с обработкой данных</label>
+            <button class="button button--primary modal__button">Отправить заявку</button>
           </div>
         </form>
       </div>
