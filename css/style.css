@@ -386,7 +386,7 @@ body {
       margin-top: 1.6rem;
       font-size: 1.428rem;
       line-height: 135.84%;
-      max-width: 52.928rem; }
+      max-width: 24.9rem; }
 
 img {
   max-width: 100%; }
@@ -620,7 +620,7 @@ img {
     .design__card__image {
       display: block;
       margin: auto;
-      width: 24.28rem; }
+      min-width: 29rem; }
     .design__card__text {
       position: relative;
       max-width: 23.6rem;
@@ -635,12 +635,12 @@ img {
     bottom: -1.7rem;
     font-size: 1.27rem;
     font-family: 'Yeseva One', cursive;
-    padding: 1.214rem;
-    padding-left: 2.35rem;
-    padding-right: 5.7rem;
+    padding: 1.21rem 3.7rem;
     text-transform: uppercase;
     background-color: #E3B873;
     color: #fff; }
+  .design .card__list:nth-child(7, 8, 9, 10, 11, 12) {
+    opacity: 0; }
 
 .row-design {
   display: flex;
@@ -759,6 +759,8 @@ img {
   .section-title__heading {
     font-size: 1.87rem;
     padding-bottom: 0.43rem; }
+  .section-title__description {
+    font-size: 1.256rem; }
   .col {
     min-width: 29.9rem; }
   .card {

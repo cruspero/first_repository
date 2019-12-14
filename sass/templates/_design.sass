@@ -9,7 +9,7 @@
     &__image
       display: block
       margin: auto
-      width: 24.28rem
+      min-width: 29rem
     &__text
       position: relative
       max-width: 23.6rem
@@ -24,12 +24,15 @@
     bottom: -1.7rem
     font-size: 1.27rem
     font-family: 'Yeseva One', cursive
-    padding: 1.214rem
-    padding-left: 2.35rem
-    padding-right: 5.7rem
+    padding: 1.21rem 3.7rem
     text-transform: uppercase
     background-color: $primary
     color: $light
+  .card
+    &__list
+      &:nth-child(7,8,9,10,11,12)
+        opacity: 0
+        
   
 .row-design
   display: flex
