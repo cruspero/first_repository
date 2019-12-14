@@ -345,8 +345,8 @@ template {
       border: 1px solid #E3B873;
       color: #E3B873; }
 
-.container-fluid {
-  width: 85%;
+.container {
+  width: 88%;
   max-width: 1256px;
   margin: auto; }
 
@@ -361,9 +361,11 @@ body {
   font-size: 1rem; }
 
 .section {
-  padding: 6rem; }
+  padding: 5rem; }
   .section-title {
-    text-align: center; }
+    text-align: center;
+    max-width: 53rem;
+    margin: auto; }
     .section-title__heading {
       margin-bottom: 1rem;
       font-family: 'Yeseva One', cursive;
@@ -457,7 +459,6 @@ img {
     position: absolute;
     left: 0;
     top: 0;
-    display: inline-block;
     max-width: 5.86rem;
     height: 100%; }
   .hero__scroll-down {
@@ -497,28 +498,29 @@ img {
     font-size: 0.964rem; }
 
 .instagram {
-  font-size: 1.043rem;
-  background-color: #131313;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-size: 1.043rem;
+  background-color: #131313; }
   .instagram__link {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
     text-decoration: none;
     text-transform: uppercase;
     color: #E3B873;
     transform: rotate(90deg); }
+    .instagram__link::after {
+      content: '';
+      width: 50px;
+      height: 1px;
+      background-color: #E3B873;
+      line-height: 1;
+      margin-left: 8px; }
     .instagram__link:hover {
       color: #fff;
       transition: color 0.2s; }
-    .instagram__link::after {
-      content: '';
-      width: 3.51rem;
-      height: 0.071rem;
-      background-color: #E3B873;
-      margin-left: 1rem; }
 
 .title {
   font-family: 'Yeseva One', cursive;
@@ -543,7 +545,6 @@ img {
   flex-basis: 33%; }
 
 .card {
-  min-width: 28rem;
   margin-left: 1rem; }
   .card__text {
     position: relative;
@@ -624,13 +625,23 @@ img {
     .design__card__text {
       position: relative;
       max-width: 23.6rem;
-      margin: 0 auto;
+      margin: auto;
       margin-top: -9.3rem;
       padding: 1.79rem 2.14rem;
       background-color: #fff;
-      box-shadow: 0.71rem 0.71rem 1.43rem rgba(0, 0, 0, 0.03);
-      background-color: #fff;
       box-shadow: 0.71rem 0.71rem 1.43rem rgba(0, 0, 0, 0.03); }
+  .design__pricetag {
+    position: absolute;
+    left: 0;
+    bottom: -1.7rem;
+    font-size: 1.27rem;
+    font-family: 'Yeseva One', cursive;
+    padding: 1.214rem;
+    padding-left: 2.35rem;
+    padding-right: 5.7rem;
+    text-transform: uppercase;
+    background-color: #E3B873;
+    color: #fff; }
 
 .row-design {
   display: flex;
