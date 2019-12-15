@@ -26,14 +26,14 @@
       border: 1px solid $primary
       color: $primary
 .label
-  font-size: 1.07rem
+  font-size: 1.2rem
   &--light
     color: rgba($light,0.5)
 .input
   background: transparent
   border: none
   border-bottom: 1px solid rgba(54, 54, 54, 0.3)
-  font-size: 1.285rem
+  font-size: 1.4rem
   padding: 0.5rem
   color: $light
   padding: 0.5rem 0
@@ -41,6 +41,7 @@
     color: $light
 .policy
   &__checkbox
+    margin-left: -1rem
     opacity: 0
     visibility: hidden
     &:checked +
@@ -48,9 +49,11 @@
         &::before
           background: $primary url('../img/check.svg') no-repeat center / 0.8rem
   &__label
+    font-size: 1.2rem
     display: flex
     align-items: center
     cursor: pointer
+    margin: 0
     &::before
       content:  ''
       width: 1.28rem

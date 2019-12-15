@@ -346,7 +346,7 @@ template {
       color: #E3B873; }
 
 .label {
-  font-size: 1.07rem; }
+  font-size: 1.2rem; }
   .label--light {
     color: rgba(255, 255, 255, 0.5); }
 
@@ -354,7 +354,7 @@ template {
   background: transparent;
   border: none;
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-  font-size: 1.285rem;
+  font-size: 1.4rem;
   padding: 0.5rem;
   color: #fff;
   padding: 0.5rem 0; }
@@ -362,15 +362,18 @@ template {
     color: #fff; }
 
 .policy__checkbox {
+  margin-left: -1rem;
   opacity: 0;
   visibility: hidden; }
   .policy__checkbox:checked + .policy__label::before {
     background: #E3B873 url("../img/check.svg") no-repeat center/0.8rem; }
 
 .policy__label {
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0; }
   .policy__label::before {
     content: '';
     width: 1.28rem;
@@ -740,8 +743,8 @@ img {
     position: relative;
     background: #131313 url("../img/bg-lines.svg") no-repeat center;
     color: #fff;
-    padding: 2.357rem 3.5rem 1.928rem;
-    max-width: 36.142rem; }
+    padding: 2.15rem 3.5rem 1.8rem;
+    max-width: 38.32rem; }
   .modal__close {
     position: absolute;
     right: 0;
@@ -750,26 +753,27 @@ img {
     height: 2.1rem;
     background: transparent url("../img/close.svg") no-repeat center;
     border: none;
-    margin: 0.857rem;
+    margin: 0.5rem 0.95rem;
     cursor: pointer;
     outline: none; }
   .modal__title {
     font-family: 'Yeseva One', cursive;
-    font-size: 1.357rem;
+    font-size: 1.435rem;
     text-align: center;
-    margin: 0;
-    margin-bottom: 2.42rem; }
+    margin-bottom: 2rem;
+    margin-top: -0.2rem;
+    line-height: 1.49; }
   .modal__form {
     display: flex;
     flex-direction: column; }
   .modal__input {
-    margin-bottom: 3.428rem; }
+    margin-bottom: 3.35rem; }
     .modal__input:last-of-type {
-      margin-bottom: 1rem; }
-  .modal__policy {
-    margin-bottom: 2.7rem; }
+      margin-bottom: -0.3rem; }
   .modal__button {
-    align-self: flex-end; }
+    margin-top: 3rem;
+    margin-left: 14.8rem;
+    padding: 1.4rem 3.54rem; }
 
 @media screen and (max-width: 1260px) {
   html {
