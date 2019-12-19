@@ -52,9 +52,16 @@
       display: block
       width: 22.86rem
       margin-bottom: 1.86rem
+  .swiper
+    &-slide
+      &-image
+        margin-top: 3rem
 
 
 @media screen and ( max-width: 576px)
+  .menu
+    margin-left: 1.28rem
+    margin-right: 1.28rem
   .contacts
     &__button
      display: none
@@ -70,6 +77,8 @@
     &__content
       max-width: 27rem
       width: 100%
+      margin-left: 1.28rem
+      margin-right: 1.28rem
     &__text
       font-size: 1.5rem
       letter-spacing: 0.015rem
@@ -85,11 +94,21 @@
     &--primary
       margin-bottom: 2.2rem
   .section-title
+    text-align: center
+    margin: auto
     &__heading
       font-size: 1.87rem
       padding-bottom: 0.43rem
-    &__description
-      font-size: 1.256rem
+      width: 20rem
+      margin: auto
+    &__text
+      margin: auto
+      max-width: 27rem
+      margin-top: 2rem
+    &__word
+      display: inline
+      &::after
+        display: none
   .col
     max-width: 29rem
   .card
@@ -112,4 +131,14 @@
       padding: 1rem 2.7rem
       bottom: -1.25rem
       font-size: 1.25rem
-  
+  .row
+    display: flex
+    flex-direction: column
+  .col-50
+    &:nth-child(2)
+      order: -1
+  .swiper
+    &-slide
+      &-image
+        margin-top: 3rem
+    
