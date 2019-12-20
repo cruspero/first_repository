@@ -24,8 +24,8 @@
   .hero
     &__instagram
       display: none
-    &__content
-      margin: 0
+    &__scroll-down
+      display: none
     &__text
       font-size: 1.4rem
     &__button
@@ -58,10 +58,10 @@
         margin-top: 3rem
 
 
-@media screen and ( max-width: 576px)
+@media screen and ( max-width: 320px)
   .menu
-    margin-left: 1.28rem
-    margin-right: 1.28rem
+    padding-left: 1.5rem
+    padding-right: 1.5rem
   .contacts
     &__button
      display: none
@@ -75,19 +75,19 @@
     letter-spacing: 0.015rem
   .hero
     &__content
-      max-width: 27rem
       width: 100%
-      margin-left: 1.28rem
-      margin-right: 1.28rem
+      margin: 1.5rem
     &__text
+      width: 100%
       font-size: 1.5rem
       letter-spacing: 0.015rem
       line-height: 1.4
       margin-bottom: 2.7rem
-    &__scroll-down
+    &::after
       display: none
+
   .button
-    width: 28.8rem
+    max-width: 28.8rem
     padding: 1.4rem
     font-size: 1.14rem
     line-height: 1.4
@@ -95,14 +95,12 @@
       margin-bottom: 2.2rem
   .section-title
     text-align: center
-    margin: auto
     &__heading
+      margin: auto
       font-size: 1.87rem
       padding-bottom: 0.43rem
-      width: 20rem
-      margin: auto
+      max-width: 20rem
     &__text
-      margin: auto
       max-width: 27rem
       margin-top: 2rem
     &__word
@@ -116,7 +114,7 @@
     margin-bottom: 5.1rem
     &__text
       margin-top: -12.3rem
-      width: 22.9rem
+      max-width: 22.9rem
     &__title
       font-size: 1.235rem
       padding-left: 0.9rem
@@ -132,7 +130,6 @@
       bottom: -1.25rem
       font-size: 1.25rem
   .row
-    display: flex
     flex-direction: column
   .col-50
     &:nth-child(2)
