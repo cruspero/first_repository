@@ -2,6 +2,9 @@
   html
     font-size: 12px
 @media screen and ( max-width: 1200px)
+  .menu
+    padding-left: 1.5rem
+    padding-right: 1.5rem
   .header
     &__contacts
       margin-right: 2rem
@@ -13,6 +16,13 @@
       font-size: 1.5rem
 
 @media screen and ( max-width: 992px)
+  .button
+    padding: 1.4rem
+    font-size: 1.14rem
+    line-height: 1.4
+  .contacts
+    &__button
+      padding: 0.8rem 1.5rem
   .nav
     &__item
       display: none
@@ -29,15 +39,22 @@
     &__text
       font-size: 1.4rem
     &__button
-      padding: 0.62rem 0.95rem
+      font-size: 0.9rem
+    &__content
+      width: 35rem
+      padding-left: 3rem
+    &::after
+      display: none
   .title
     font-size: 2.1rem
 
 
 @media screen and ( max-width: 520px)
-  .nav
-    &__item
+  .contacts
+    &__button
       display: none
+    &__phone
+      margin: auto
   .menu
     display: flex
     justify-content: space-between
@@ -52,19 +69,17 @@
       display: block
       width: 22.86rem
       margin-bottom: 1.86rem
+    &__content
+      width: 25rem
   .swiper
     &-slide
       &-image
         margin-top: 3rem
 
 
+
 @media screen and ( max-width: 320px)
-  .menu
-    padding-left: 1.5rem
-    padding-right: 1.5rem
   .contacts
-    &__button
-     display: none
     &__phone
       margin: auto
       color: $light
@@ -85,13 +100,6 @@
       margin-bottom: 2.7rem
     &::after
       display: none
-
-  .button
-    padding: 1.4rem
-    font-size: 1.14rem
-    line-height: 1.4
-    &--primary
-      margin-bottom: 2.2rem
   .section-title
     text-align: center
     &__heading
