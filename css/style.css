@@ -366,7 +366,7 @@ template {
   opacity: 0;
   visibility: hidden; }
   .policy__checkbox:checked + .policy__label::before {
-    background: #E3B873 url("../img/check.svg") no-repeat center/0.8rem; }
+    background: #E3B873 url("../img/modal-check.svg") no-repeat center/0.8rem; }
 
 .policy__label {
   font-size: 1.2rem;
@@ -862,7 +862,7 @@ img {
   .modal__button {
     margin-top: 3rem;
     margin-left: 14.8rem;
-    padding: 1.4rem 3.54rem; }
+    padding: 1.4rem 3.9rem; }
 
 @media screen and (max-width: 1260px) {
   html {
@@ -922,7 +922,11 @@ img {
   .projects {
     display: block; }
   .card {
-    margin-bottom: 3rem; } }
+    margin-bottom: 3rem; }
+  .modal__button {
+    margin-top: 3rem;
+    margin-left: 14.8rem;
+    padding: 1.4rem 3.2rem; } }
 
 @media screen and (max-width: 520px) {
   .contacts__button {
@@ -945,7 +949,24 @@ img {
   .hero__content {
     width: 25rem; }
   .swiper-slide-image {
-    margin-top: 3rem; } }
+    margin-top: 3rem; }
+  .modal__title {
+    font-size: 1rem; }
+  .modal__input {
+    font-size: 1rem; }
+  .modal__dialog {
+    max-width: 30rem; }
+  .modal__button {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    padding: 1rem 2rem;
+    font-size: 1rem; }
+  .policy__label {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 370px) {
+  .modal__button {
+    margin-left: 10rem; } }
 
 @media screen and (max-width: 320px) {
   .contacts__phone {
@@ -1008,4 +1029,6 @@ img {
   .col-50 {
     width: 100%; }
     .col-50:nth-child(2) {
-      order: -1; } }
+      order: -1; }
+  .modal__button {
+    margin-left: 6.1rem; } }
