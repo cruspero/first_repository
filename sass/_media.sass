@@ -69,13 +69,44 @@
     &__button
      margin-top: 3rem
      margin-left: 14.8rem
-     padding: 1.4rem 3.2rem  
+     padding: 1.4rem 3.2rem 
 
 @media screen and ( max-width: 810px )
   .col-50
     width: 100%
+  .control
+    padding-top: 3rem
+    background-color: $dark
+    color: $light
+    &__label
+      color: $secondary
+    &__input
+      &::placeholder
+        color: $light
+        border-bottom: 1px solid $secondary
+      &:focus
+        outline: none
+
 
 @media screen and ( max-width: 520px)
+  .control
+    &__video
+      background: url(../img/video-mobile.jpg) center no-repeat
+      box-shadow: none
+      max-width: 28.33rem
+      min-height: 17.25rem
+    &__button
+      padding: 1.66rem 8rem
+      &:last-of-type
+        order: 1
+        margin: auto
+        margin-top: 3rem
+        margin-bottom: -5rem
+  .types
+    &__section-title
+     padding-top: 3rem
+        
+
   .contacts
     &__button
       display: none
@@ -121,11 +152,26 @@
 @media screen and ( max-width: 370px)
   .modal
     &__button
-     margin-left: 10rem 
+     margin-left: 10rem
+
 
 
 
 @media screen and ( max-width: 320px)
+  .control
+    &__text
+      font-size: 1.16rem
+      max-width: 28.3rem
+      line-height: 169.8%
+    &__input
+      width: 21rem
+    &__input-group
+      margin-bottom: 5.25rem
+      &:nth-child(2)
+        margin-bottom: 1rem
+    &__button
+      align-self: flex-end
+      padding: 1.66rem 7.5rem
   .contacts
     &__phone
       margin: auto

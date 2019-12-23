@@ -358,7 +358,7 @@ template {
   padding: 0.5rem;
   color: #fff;
   padding: 0.5rem 0; }
-  .input::placeholder {
+  .input--light::placeholder {
     color: #fff; }
 
 .policy__checkbox {
@@ -616,6 +616,9 @@ img {
     color: #E3B873;
     letter-spacing: -0.029rem; }
 
+.projects {
+  padding-bottom: 30rem; }
+
 .swiper-slide {
   display: flex;
   flex-wrap: wrap; }
@@ -666,6 +669,73 @@ img {
 
 .row {
   padding-bottom: 5rem; }
+
+.control__section-title {
+  margin-bottom: 2.214rem;
+  margin-top: -30rem;
+  color: #fff; }
+
+.control__video {
+  display: flex;
+  margin: auto;
+  margin-bottom: 4.428rem;
+  position: relative;
+  max-width: 58.357rem;
+  min-height: 31rem;
+  background: url(../img/video-bg.jpg) center no-repeat;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15); }
+  .control__video::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.8); }
+
+.control__text {
+  max-width: 40.75rem;
+  margin: auto;
+  margin-bottom: 4.285rem;
+  text-align: center;
+  font-size: 1.428rem;
+  line-height: 2.424rem; }
+  .control__text::before {
+    display: block;
+    margin: auto;
+    margin-bottom: 2.5rem;
+    content: '';
+    width: 55px;
+    height: 2px;
+    background-color: #E3B873;
+    border-radius: 30px; }
+
+.control__form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 55rem;
+  margin: auto; }
+
+.control__label {
+  margin-bottom: -7px; }
+
+.control__input-group {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%; }
+
+.control__button {
+  padding: 1.257rem 4.785rem; }
+
+.control__policy {
+  flex-basis: 100%;
+  margin-top: 1.2rem; }
+  .control__policy-label {
+    justify-content: center; }
+
+.video__play {
+  position: relative;
+  margin: auto;
+  width: 6.07rem; }
 
 .types__section-title {
   margin-bottom: 2rem; }
@@ -930,9 +1000,34 @@ img {
 
 @media screen and (max-width: 810px) {
   .col-50 {
-    width: 100%; } }
+    width: 100%; }
+  .control {
+    padding-top: 3rem;
+    background-color: #131313;
+    color: #fff; }
+    .control__label {
+      color: #959595; }
+    .control__input::placeholder {
+      color: #fff;
+      border-bottom: 1px solid #959595; }
+    .control__input:focus {
+      outline: none; } }
 
 @media screen and (max-width: 520px) {
+  .control__video {
+    background: url(../img/video-mobile.jpg) center no-repeat;
+    box-shadow: none;
+    max-width: 28.33rem;
+    min-height: 17.25rem; }
+  .control__button {
+    padding: 1.66rem 8rem; }
+    .control__button:last-of-type {
+      order: 1;
+      margin: auto;
+      margin-top: 3rem;
+      margin-bottom: -5rem; }
+  .types__section-title {
+    padding-top: 3rem; }
   .contacts__button {
     display: none; }
   .contacts__phone {
@@ -973,6 +1068,19 @@ img {
     margin-left: 10rem; } }
 
 @media screen and (max-width: 320px) {
+  .control__text {
+    font-size: 1.16rem;
+    max-width: 28.3rem;
+    line-height: 169.8%; }
+  .control__input {
+    width: 21rem; }
+  .control__input-group {
+    margin-bottom: 5.25rem; }
+    .control__input-group:nth-child(2) {
+      margin-bottom: 1rem; }
+  .control__button {
+    align-self: flex-end;
+    padding: 1.66rem 7.5rem; }
   .contacts__phone {
     margin: auto;
     color: #fff;
