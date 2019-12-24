@@ -381,6 +381,8 @@ template {
     border: 1px solid #E3B873;
     border-radius: 1px;
     margin-right: 0.64rem; }
+  .policy__label--center {
+    justify-content: center; }
 
 .container {
   width: 100%;
@@ -807,7 +809,8 @@ img {
     font-size: 1.29rem; } }
 
 .design {
-  background-color: #131313; }
+  background-color: #131313;
+  padding-bottom: 20rem; }
   .design__section-title {
     color: #fff;
     margin-bottom: 2rem; }
@@ -851,7 +854,8 @@ img {
     align-items: flex-start;
     justify-content: space-around; }
   .design {
-    background-color: #fff; }
+    background-color: #fff;
+    padding-bottom: 30rem; }
     .design__section-title {
       color: #131313;
       max-width: 53rem;
@@ -879,6 +883,49 @@ img {
     .design .section-title__description {
       max-width: 53rem;
       padding-bottom: 3.2rem; } }
+
+.footer {
+  background: #131313 url(../img/footer-bg.jpg) no-repeat center/cover;
+  padding-top: 3rem; }
+  .footer__wrap {
+    background-color: #181818;
+    max-width: 63.07rem;
+    margin: auto;
+    margin-top: -20rem;
+    margin-bottom: 3.714rem;
+    padding: 2.5rem; }
+  .footer__title {
+    text-transform: uppercase;
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.428rem;
+    text-align: center;
+    margin-bottom: 3.214rem;
+    margin-top: 0; }
+  .footer__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 37.142rem;
+    margin: auto; }
+  .footer__input {
+    padding-top: 0.3rem; }
+    .footer__input-group {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 45%;
+      margin-bottom: 3.2rem; }
+      .footer__input-group--full-width {
+        flex-basis: 100%;
+        margin-bottom: 2rem; }
+  .footer__policy {
+    flex-basis: 100%;
+    margin-bottom: 3.6rem; }
+  .footer__button {
+    margin: auto;
+    padding: 1.285rem 4.785rem; }
+  .footer__menu {
+    background-color: #131313;
+    padding: 4.285rem 0; }
 
 .modal {
   opacity: 0;
@@ -1143,4 +1190,15 @@ img {
     .col-50:nth-child(2) {
       order: -1; }
   .modal__button {
-    margin-left: 5.5rem; } }
+    margin-left: 5.5rem; }
+  .footer__menu {
+    display: none; }
+  .footer__wrap {
+    background-color: #131313;
+    margin-bottom: 0; }
+  .footer__input-group {
+    flex-basis: 100%; }
+  .footer__button {
+    padding: 1.583rem 8rem; }
+  .policy__label--center {
+    justify-content: flex-start; } }
