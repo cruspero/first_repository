@@ -8,6 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Homework</title>
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/hover-min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -15,8 +17,8 @@
   <header class="header">
     <div class="container">
       <div class="menu">
-        <div class="logo menu__logo">Repair Design Project</div>
-        <nav class="nav menu__nav">
+        <div class="logo menu__logo wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="1s">Repair Design Project</div>
+        <nav class="nav menu__nav wow zoomIn">
           <a href="#" class="nav__item">Главная</a>
           <a href="#" class="nav__item">Проекты</a>
           <a href="#" class="nav__item">Замер</a>
@@ -26,31 +28,31 @@
         </nav>
         <div class="contacts menu__contacts">
           <a href="tel:+79997683299" class="phone contacts__phone">+7 (999) 768-32-99</a>
-          <button class="button contacts__button button--primary" data-toggle="modal">Заказать звонок</button>
+          <button class="button contacts__button button--primary hvr-grow" data-toggle="modal">Заказать звонок</button>
         </div>
       </div>
     </div>
   </header>
   <main>
     <section class="hero">
-      <div class="instagram hero__instagram"><a href="#" class="instagram__link">Instagram</a></div>
+      <div class="instagram hero__instagram hvr-grow"><a href="#" class="instagram__link">Instagram</a></div>
       <div class="container">
         <div class="hero__content">
-          <h1 class="title hero__title">Турецкий ремонт в&nbsp;<span class="title--primary">Ростове-на-дону</span></h1>
-          <p class="hero__text">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и
+          <h1 class="title hero__title wow fadeInLeft">Турецкий ремонт в&nbsp;<span class="title--primary">Ростове-на-дону</span></h1>
+          <p class="hero__text wow fadeInUp">Получите готовый ремонт под ключ в срок с экономией рабочего времени до 45 дней и
             20% от стоимости материалов за счет организации работы</p>
-          <button class="button hero__button button--primary" data-toggle="modal">Рассчитать стоимость</button>
-          <button class="button hero__button button--outline">Оставить заявку</button>
+          <button class="button hero__button button--primary hvr-grow" data-toggle="modal">Рассчитать стоимость</button>
+          <button class="button hero__button button--outline hvr-grow">Оставить заявку</button>
         </div>
       </div>
-      <a href="#" class="hero__scroll-down">Листайте вниз</a>
+      <a href="#" class="hero__scroll-down wow rollIn" data-wow-delay=" 6s">Листайте вниз</a>
     </section>
     <section class="section section--dark projects">
       <div class="container">
         <div class="section-title section-title--left">
-          <div class="section-title__heading section-title__heading--primary">Завершенные <span
+          <div class="section-title__heading section-title__heading--primary wow fadeInLeft">Завершенные <span
               class="section-title__word">проекты</span></div>
-          <p class="section-title__text">На сайте представлена ​​лишь небольшая часть работ, выполняемых нашей
+          <p class="section-title__text wow fadeInUp">На сайте представлена ​​лишь небольшая часть работ, выполняемых нашей
             компанией. За 14 лет работы на строительном рынке мы осчастливили более 1000 семей</p>
         </div>
         <div class="row">
@@ -119,7 +121,7 @@
               <div class="swiper-button-next"></div>
             </div>
           </div>
-          <div class="col-50">
+          <div class="col-50 wow zoomIn" data-wow-delay="0.5s">
             <div class="swiper-container swiper-slide-image swiper-no-swiping">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
@@ -148,13 +150,13 @@
     <section class="section control">
       <div class="container">
         <div class="section-title control__section-title">
-          <div class="section-title__heading">Онлайн контроль</div>
+          <div class="section-title__heading  wow fadeInUp">Онлайн контроль</div>
           <div class="section-title__image"><img src="img/video.svg" alt="video"></div>
         </div>
         <div class="control__video video">
           <img src="img/play-icon.svg" alt="play-icon" class="video__play">
         </div>
-        <p class="control__text">
+        <p class="control__text wow fadeInDown">
           На каждом объекте установлена ​​камера, которая транслирует ход работы на часах. В любой момент вы можете
           зайти на наш сайт и следить за ходом работы в вашей квартире. Посмотрите прямую трансляцию с одного из наших
           объектов! Оставьте заявку ниже чтобы получить ссылку на трансляцию.
@@ -169,7 +171,7 @@
             <input type="tel" class="input form__input control__input" id="user-phone"
               placeholder="Ваш номер телефона:">
           </div>
-          <button class="button button--primary control__button">Отправить</button>
+          <button class="button button--primary control__button hvr-grow">Отправить</button>
           <div class="policy control__policy">
             <input type="checkbox" class="policy__checkbox" id="policy__checkbox" checked>
             <label for="policy__checkbox" class="policy__label control__policy-label">Я соглашаюсь с обработкой
@@ -181,12 +183,12 @@
     <section class="section types">
       <div class="container">
         <div class="section-title types__section-title">
-          <div class="section-title__heading">Виды ремонта</div>
+          <div class="section-title__heading  wow fadeInUp">Виды ремонта</div>
           <div class="section-title__images"><img src="img/repair.svg" alt="repair"></div>
         </div>
         <div class="row">
           <div class="col-30">
-            <div class="card types__card">
+            <div class="card types__card wow fadeInLeft" data-wow-delay="1s">
               <img src="img/types/type-1.jpg" alt="Косметический ремонт" class="card__image">
               <div class="card__text">
                 <h3 class="card__title">Косметический ремонт</h3>
@@ -204,7 +206,7 @@
             </div>
           </div>
           <div class="col-30">
-            <div class="card types__card">
+            <div class="card types__card wow zoomIn" data-wow-delay="1s">
               <img src="img/types/type-2.jpg" alt="Капитальный ремонт" class="card__image">
               <div class="card__text">
                 <h3 class="card__title">Капитальный ремонт</h3>
@@ -222,7 +224,7 @@
             </div>
           </div>
           <div class="col-30">
-            <div class="card types__card">
+            <div class="card types__card wow fadeInRight" data-wow-delay="1s">
               <img src="img/types/type-3.jpg" alt="Дизайнерский ремонт" class="card__image">
               <div class="card__text">
                 <h3 class="card__title">Дизайнерский ремонт</h3>
@@ -245,13 +247,13 @@
     <section class="section design">
       <div class="container">
         <div class="section-title design__section-title">
-          <div class="section-title__heading">Дизайн проект</div>
+          <div class="section-title__heading  wow fadeInUp">Дизайн проект</div>
           <div class="section-title__image"><img src="img/design.svg" alt="design"></div>
-          <p class="section-title__description">Дизайн-проект не только помогает сделать ремонт вашей квартиры более
+          <p class="section-title__description wow fadeInDown">Дизайн-проект не только помогает сделать ремонт вашей квартиры более
             современным, но и значительно удешевляет материалы и сокращает время ремонтных работ</p>
         </div>
         <div class="row-design">
-          <div class="card design__card">
+          <div class="card design__card wow fadeInLeft" data-wow-delay="1s">
             <img src="img/design/design-1.jpg" alt="Минимальный" class="card__image">
             <div class="card__text">
               <h3 class="card__title">Минимальный</h3>
@@ -264,7 +266,7 @@
               <strong class="design__pricetag"> 150 руб / м<sup>2</sup></strong>
             </div>
           </div>
-          <div class="card design__card">
+          <div class="card design__card wow zoomIn" data-wow-delay="1s">
             <img src="img/design/design-2.jpg" alt="Стандартный" class="card__image">
             <div class="card__text">
               <h3 class="card__title">Стандартный</h3>
@@ -280,7 +282,7 @@
               <strong class="design__pricetag"> 400 руб / м<sup>2</sup></strong>
             </div>
           </div>
-          <div class="card design__card">
+          <div class="card design__card wow fadeInRight" data-wow-delay="1s">
             <img src="img/design/design-3.jpg" alt="Полный" class="card__image">
             <div class="card__text">
               <h3 class="card__title">Полный</h3>
@@ -321,7 +323,7 @@
           <div class="policy modal__policy">
             <input type="checkbox" class="policy__checkbox" id="policy__checkbox" checked>
             <label for="policy__checkbox" class="policy__label">Я соглашаюсь с обработкой данных</label>
-            <button class="button button--primary modal__button">Отправить заявку</button>
+            <button class="button button--primary modal__button hvr-grow">Отправить заявку</button>
           </div>
         </form>
       </div>
@@ -329,6 +331,7 @@
   </main>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
