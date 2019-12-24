@@ -1108,7 +1108,18 @@ img {
     padding: 1rem 2rem;
     font-size: 1rem; }
   .policy__label {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+    .policy__label--center {
+      justify-content: flex-start; }
+  .footer__menu {
+    display: none; }
+  .footer__wrap {
+    background-color: #131313;
+    margin-bottom: 0; }
+  .footer__input-group {
+    flex-basis: 100%; }
+  .footer__button {
+    padding: 1.583rem 8rem; } }
 
 @media screen and (max-width: 370px) {
   .modal__button {
@@ -1190,15 +1201,4 @@ img {
     .col-50:nth-child(2) {
       order: -1; }
   .modal__button {
-    margin-left: 5.5rem; }
-  .footer__menu {
-    display: none; }
-  .footer__wrap {
-    background-color: #131313;
-    margin-bottom: 0; }
-  .footer__input-group {
-    flex-basis: 100%; }
-  .footer__button {
-    padding: 1.583rem 8rem; }
-  .policy__label--center {
-    justify-content: flex-start; } }
+    margin-left: 5.5rem; } }
