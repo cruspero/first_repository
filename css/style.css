@@ -360,12 +360,15 @@ template {
   padding: 0.5rem 0; }
   .input--light::placeholder {
     color: #fff; }
+  .input:focus {
+    outline: none; }
 
 .policy__checkbox {
   margin-left: -1rem;
   opacity: 0;
   visibility: hidden; }
   .policy__checkbox:checked + .policy__label::before {
+    content: '';
     background: #E3B873 url("../img/modal-check.svg") no-repeat center/0.8rem; }
 
 .policy__label {
@@ -383,6 +386,13 @@ template {
     margin-right: 0.64rem; }
   .policy__label--center {
     justify-content: center; }
+
+label.invalid {
+  padding-top: 0.5rem;
+  color: #D46F53; }
+
+input.invalid {
+  border-bottom: 1px solid #D46F53; }
 
 .container {
   width: 100%;
@@ -720,6 +730,9 @@ img {
 .control__label {
   margin-bottom: -7px; }
 
+.control__input {
+  color: #131313; }
+
 .control__input-group {
   display: flex;
   flex-direction: column;
@@ -972,9 +985,11 @@ img {
   .modal__form {
     display: flex;
     flex-direction: column; }
-  .modal__input {
-    margin-bottom: 3.35rem; }
-    .modal__input:last-of-type {
+  .modal__input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.482rem; }
+    .modal__input-group:nth-last-child(2) {
       margin-bottom: -0.3rem; }
   .modal__button {
     margin-top: 3rem;

@@ -40,6 +40,8 @@
   &--light
     &::placeholder
       color: $light
+  &:focus
+    outline: none
 .policy
   &__checkbox
     margin-left: -1rem
@@ -48,6 +50,7 @@
     &:checked +
       .policy__label
         &::before
+          content: ''
           background: $primary url('../img/modal-check.svg') no-repeat center / 0.8rem
   &__label
     font-size: 1.2rem
@@ -64,3 +67,10 @@
       margin-right: 0.64rem
     &--center
       justify-content: center
+label
+  &.invalid
+    padding-top: 0.5rem
+    color: #D46F53
+input
+  &.invalid
+    border-bottom: 1px solid #D46F53
