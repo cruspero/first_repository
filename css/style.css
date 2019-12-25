@@ -387,9 +387,12 @@ template {
   .policy__label--center {
     justify-content: center; }
 
-label.invalid {
-  padding-top: 0.5rem;
-  color: #D46F53; }
+label {
+  position: relative; }
+  label.invalid {
+    position: absolute;
+    color: #D46F53;
+    padding: 4.2rem 0; }
 
 input.invalid {
   border-bottom: 1px solid #D46F53; }
@@ -990,7 +993,7 @@ img {
     flex-direction: column;
     margin-bottom: 3.482rem; }
     .modal__input-group:nth-last-child(2) {
-      margin-bottom: -0.3rem; }
+      margin-bottom: 1rem; }
   .modal__button {
     margin-top: 3rem;
     margin-left: 14.8rem;
@@ -1141,12 +1144,16 @@ img {
     margin-left: 10rem; } }
 
 @media screen and (max-width: 320px) {
+  .control__label {
+    margin: 0; }
   .control__text {
     font-size: 1.16rem;
     max-width: 28.3rem;
     line-height: 169.8%; }
   .control__input {
-    width: 21rem; }
+    width: 21rem;
+    color: #fff;
+    padding: 0; }
   .control__input-group {
     margin-bottom: 5.25rem; }
     .control__input-group:nth-child(2) {
