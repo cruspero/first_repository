@@ -475,6 +475,9 @@ body {
 img {
   max-width: 100%; }
 
+.mail-icon {
+  padding-right: 1rem; }
+
 .header {
   background-color: #131313;
   padding: 1.71rem 0;
@@ -916,6 +919,12 @@ img {
     text-align: center;
     margin-bottom: 3.214rem;
     margin-top: 0; }
+    .footer__title--primary {
+      color: #E3B873;
+      max-width: 38rem;
+      margin: auto;
+      padding-bottom: 1.857rem;
+      line-height: 2rem; }
   .footer__form {
     display: flex;
     flex-wrap: wrap;
@@ -942,6 +951,17 @@ img {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__map {
+    margin: auto;
+    margin-bottom: 4.71rem; }
+  .footer__description {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3.092rem; }
+  .footer__icons {
+    margin: auto; }
+    .footer__icons:hover {
+      cursor: pointer; }
 
 .modal {
   opacity: 0;
@@ -1224,4 +1244,16 @@ img {
     .col-50:nth-child(2) {
       order: -1; }
   .modal__button {
-    margin-left: 5.5rem; } }
+    margin-left: 5.5rem; }
+  .footer {
+    background: #131313; }
+    .footer__wrap2 {
+      display: flex;
+      flex-direction: column; }
+    .footer__title--primary {
+      margin: 0 0.8rem;
+      padding-top: 3.2rem; }
+    .footer__map {
+      order: -1;
+      margin: 0 1rem;
+      min-height: 255px; } }
