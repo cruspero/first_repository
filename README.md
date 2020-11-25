@@ -1,1 +1,1 @@
-# first_repository
+# turkish_design
